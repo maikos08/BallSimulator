@@ -92,7 +92,7 @@ public class BallPresenter {
     }
 
     private void draw() {
-        balls.forEach(_ ->draw());
+        balls.forEach(_  ->draw());
     }
 
     private void simulate() {

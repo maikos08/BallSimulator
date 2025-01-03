@@ -2,7 +2,7 @@ package software.ulpgc;
 
 import java.util.List;
 
-public interface BallDisplay {
+public interface  BallDisplay {
     void draw(List<Circle> circles);
     void of(Grabbed grabbed);
     void of(Released released);

@@ -1,6 +1,6 @@
 package software.ulpgc;
 
-public class BallSimulator {
+public class  BallSimulator {
     private final double dt;
 
     public BallSimulator(double dt) {

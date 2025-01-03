@@ -126,7 +126,7 @@ public class SwingBallDisplay extends JPanel implements BallDisplay {
     }
 
     private void draw(Graphics graphics, Circle c, int width, int height) {
-        graphics.setColor(Color.GREEN);
+        graphics.setColor(Color.GREEN );
         graphics.fillOval(width / 2 + c.x() - c.r(), height - c.y() - c.r(), c.r() * 2, c.r() * 2);
     }
 
